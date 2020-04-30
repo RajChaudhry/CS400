@@ -10,7 +10,7 @@ import {BUSINESS} from './business';
 export class AppComponent {
   title = 'untitled3';
   businesses = BUSINESSES;
-  private selectedBusiness: BUSINESS;
+  selectedBusiness: BUSINESS;
   selectBusiness(business: BUSINESS) {
     this.selectedBusiness = business;
   }
